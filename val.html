@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Happy Valentine's Day</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".title").click(function () {
+                $(".container").addClass("open");
+            });
+
+            $(".close").click(function () {
+                $(".container").removeClass("open");
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- Happy Valentines day Codepen! -->
+    <div class="bgoverlay">
+        <div class="container">
+            <span class="ico">
+                <span class="ico2"></span>
+                <span class="title">Click Me</span>
+            </span>
+            <div class="endtext">
+                <span class="close" title="Restart"><i class="fa fa-times"></i></span>
+                <h1>Happy Valentines love!</h1>
+                <h2>I miss you so much po! I wish I could be there beside you. Your presence completes me, and I am endlessly grateful for the joy and warmth you bring into my life. I love you more than words can express. See you soon my baby pres!</h2>
+                <p>
+                    <h2>Will you be my valentine?</h2>
+                    <h3>~Paglii</h3>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
